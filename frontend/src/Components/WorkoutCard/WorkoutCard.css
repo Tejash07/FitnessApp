@@ -1,0 +1,51 @@
+.workout-card-container {
+	position: relative;
+	background-color: rgb(241, 241, 241);
+	width: 100%;
+	padding: 20px 0px;
+	margin-bottom: 25px;
+	border: 1px solid #2c3e5094;
+
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 2px;
+	transition: 0.3s;
+}
+
+.workout-card-container:hover {
+	background-color: rgb(211, 211, 211);
+	cursor: pointer;
+}
+
+.workout-card-container div {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.workout-card-title {
+	font-family: inter;
+	font-weight: bold;
+	font-size: 20px;
+	background-color: #e74c3c;
+	color: white;
+	padding: 10px;
+	border-radius: 1px;
+}
+
+.workout-card-date {
+	font-family: "Open Sans";
+	color: white;
+	padding: 10px;
+	background-color: #2f3640;
+	border-radius: 2px;
+	font-weight: 600;
+}
+
+.workout-exercise-count {
+	font-family: "Open Sans";
+	font-weight: 600;
+	padding: 10px;
+	background-color: #f39c12;
+	color: white;
+	border-radius: 2px;
+}

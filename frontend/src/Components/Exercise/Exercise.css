@@ -1,0 +1,81 @@
+.exercise-container {
+	position: relative;
+	width: 99%;
+
+	background-color: white;
+	box-shadow: 0px 0px 3px 1px black;
+	box-sizing: border-box;
+	padding: 20px;
+	margin-top: 15px;
+}
+
+.exercise-name {
+	float: left;
+	margin-right: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	color: #2f3640;
+}
+
+.categories-container {
+	color: white;
+	padding: 6px 15px;
+	font-size: 17px;
+	display: inline-block;
+	font-weight: 600;
+	font-family: "Inter";
+}
+
+.sets-list-container {
+	display: block;
+
+	height: 50px;
+	width: 100%;
+	margin-top: 30px;
+	box-sizing: border-box;
+}
+
+.add-set-button {
+	position: relative;
+	margin-left: 20px;
+}
+
+.set-block {
+	position: relative;
+	padding: 10px 30px 10px 8px;
+
+	background-color: white;
+	box-shadow: 0px 0px 2px 1px black;
+	display: inline-block;
+	margin-right: 25px;
+	font-size: 20px;
+}
+
+.delete-exercise-button {
+	position: absolute;
+	background-color: rgb(180, 0, 0);
+	color: white;
+	top: 20px;
+	right: 30px;
+}
+
+.delete-set {
+	position: absolute;
+	color: white;
+	background-color: red;
+	border-radius: 50%;
+	box-sizing: border-box;
+
+	text-align: center;
+	font-weight: bold;
+	width: 20px;
+	height: 20px;
+	right: 5px;
+	top: 3px;
+	transition: 0.3s;
+}
+
+.delete-set:hover {
+	background-color: darkred;
+	cursor: pointer;
+}

@@ -1,0 +1,91 @@
+.exercise-category-container {
+	position: relative;
+
+	width: 100%;
+}
+
+.exercise-category-header {
+	position: relative;
+	font-family: "inter";
+	font-weight: 600;
+	font-size: 25px;
+	padding: 20px;
+	box-sizing: border-box;
+	color: white;
+	transition: 0.2s;
+	z-index: 10;
+	overflow-y: hidden;
+}
+
+.exercise-category-header:hover {
+	cursor: pointer;
+}
+
+.exercise-category-header:hover .dark-cover {
+	clip-path: polygon(80% 0%, 100% 0%, 100% 100%, 70% 100%);
+}
+
+.exercise-category-header i {
+	position: absolute;
+	right: 20px;
+	transform: rotate(-90deg);
+	color: white;
+
+	transition: 0.2s;
+}
+
+.exercise-category-header:hover i {
+	cursor: pointer;
+	transform: rotate(0deg);
+}
+
+.variant-container-open {
+	position: relative;
+	background-color: white;
+	color: black;
+
+	overflow: hidden;
+	transition: 0.3s;
+	box-sizing: border-box;
+	transition-property: height;
+	height: 300px;
+}
+
+.variant-container-closed {
+	position: relative;
+
+	height: 0px;
+
+	overflow: hidden;
+	transition: 0.3s;
+	transition-property: height;
+	box-sizing: border-box;
+}
+
+.exercise-category-item {
+	position: relative;
+	padding: 20px;
+	box-sizing: border-box;
+	background-color: #2f3640;
+	color: white;
+	font-family: Inter;
+	font-size: 20px;
+	transition: 0.3s;
+}
+
+.exercise-category-item:hover {
+	background-color: #07080a;
+	padding-left: 30px;
+	cursor: pointer;
+}
+
+.exercise-category-item span {
+	position: absolute;
+	right: 50px;
+	background-color: white;
+	color: #2f3640;
+	padding: 5px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Inter;
+}

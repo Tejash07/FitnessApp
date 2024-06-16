@@ -1,0 +1,40 @@
+.login-page-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.login-page-wrapper {
+	position: relative;
+	width: 80%;
+	height: 80%;
+}
+
+.login-page-wrapper input {
+	position: relative;
+	padding: 20px;
+	display: block;
+	width: 90%;
+	margin-bottom: 20px;
+}
+
+.buttons-container {
+	position: relative;
+	width: 90%;
+	padding: 20px;
+}
+
+.buttons-container button {
+	background-color: #0e6eff;
+	color: white;
+	border-style: none;
+	padding: 12px 20px;
+	font-weight: bold;
+	font-size: 25px;
+	transition: 0.3s;
+}
+
+.buttons-container button:hover {
+	background-color: #1479bd;
+	cursor: pointer;
+}

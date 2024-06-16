@@ -1,0 +1,156 @@
+.workout-view-container {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+	z-index: 2;
+	opacity: 0;
+	overflow-x: hidden;
+	transition: 0.2s;
+}
+
+.close-workout-view-button {
+	position: relative;
+	left: 0px;
+	top: 20px;
+	background-color: #eb2f06;
+	color: white;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 19px;
+	z-index: 10;
+	border-style: none;
+	transition: 0.3s;
+}
+
+.close-workout-view-button:hover {
+	cursor: pointer;
+	background-color: #991d01;
+}
+
+.fa-arrow-circle-left {
+	margin-right: 10px;
+}
+
+.settings-button {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	bottom: -10px;
+	left: 20px;
+	background: #2f3640;
+	color: white;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.settings-button i {
+	position: absolute;
+}
+
+.settings-button:hover {
+	cursor: pointer;
+	background-color: #191c22;
+	transform: rotate(90deg);
+}
+
+.fa-play-circle {
+	color: #27ae60;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.fa-pause-circle {
+	color: #e67e22;
+	font-size: 30px;
+	margin-left: 20px;
+}
+
+.fa-redo-alt {
+	position: relative;
+	background-color: #3498db;
+	color: white;
+	padding: 5px;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 5px;
+	bottom: 3px;
+}
+
+.workout-view-header {
+	height: 100px;
+}
+
+.workout-exercises-container {
+	position: relative;
+	background-color: white;
+}
+
+.workout-exercises-wrapper {
+	position: relative;
+}
+
+.workout-view-stats-container {
+	border: 1px solid black;
+	height: 100px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.stat-block-container {
+	position: relative;
+	padding: 20px;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+	text-align: center;
+	background-color: white;
+	font-weight: 600;
+	font-size: 25px;
+}
+
+.time-holder {
+	margin-left: 15px;
+}
+.stat-block-text {
+	position: absolute;
+
+	width: 90%;
+}
+
+.workout-title-input {
+	padding: 20px 20px;
+}
+
+.workout-view-title {
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-family: inter;
+	font-weight: bold;
+	font-size: 50px;
+	color: #2f3640;
+}
+
+.add-exercise-button {
+	position: absolute;
+	background-color: #2ecc71;
+	color: white;
+	border-style: none;
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 20px;
+	right: 0px;
+	top: 0px;
+	padding: 15px;
+	transition: 0.3s;
+}
+
+.add-exercise-button:hover {
+	cursor: pointer;
+	background-color: #27ae60;
+}

@@ -1,0 +1,7 @@
+.settings-modal-container {
+	position: absolute;
+	background-color: red;
+	width: 500px;
+	height: 600px;
+	z-index: 10;
+}

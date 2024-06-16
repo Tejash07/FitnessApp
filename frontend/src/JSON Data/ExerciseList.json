@@ -1,0 +1,71 @@
+{
+    "exerciseList": [
+        {
+
+
+            "category": "Chest",
+            "exercises": [
+               
+                {"name" : "Barbell Bench Press",
+                "variants": ["Incline", "Decline", "Wide Grip"],
+                "type": "reps & weight"},
+
+                {
+                    "name" : "Dumbbell Bench Press",
+                "variants": ["Incline", "Decline"],
+                "type": "reps & weight"
+                },
+
+                {
+                    "name" : "Push Ups",
+                "variants": ["Incline", "Decline"],
+                "type": "reps"
+                }
+                ]},
+                {
+                "category":"Back",
+                "exercises": [
+                    {"name" : "Lat Pull Downs",
+                    "variants": ["Wide Grip", "Under Hand"],
+                    "type": "reps & weight"},
+    
+                    {
+                        "name" : "Deadlifts",
+                    "variants": [],
+                    "type": "reps & weight"
+                    },
+    
+                    {
+                        "name" : "Pull Ups",
+                    "variants": ["Incline", "Decline"],
+                    "type": "reps"
+                    }
+                    ]},
+                    {
+                        "category":"Shoulders",
+                        "exercises": []
+                    },
+                    {
+                        "category":"Legs",
+                        "exercises": []
+                    },
+                    {
+                        "category":"Tricep",
+                        "exercises": []
+                    },
+                    {
+                        "category":"Bicep",
+                        "exercises": []
+                    },
+                    
+                    {
+                        "category":"Abs",
+                        "exercises": []
+                    },
+                    {
+                        "category":"Cardio",
+                        "exercises": []
+                    }
+        
+    ]
+}

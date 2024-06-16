@@ -1,0 +1,194 @@
+.exercise-menu-container {
+	position: absolute;
+	width: 600px;
+	max-height: auto;
+	background-color: white;
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.644);
+	z-index: 5;
+}
+
+.exercise-menu-container-template {
+	position: relative;
+	width: 60%;
+	max-height: 700px;
+	background-color: white;
+	box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.644);
+	z-index: 5;
+	float: left;
+}
+
+.exercise-list {
+	overflow-y: scroll;
+	height: 600px;
+}
+
+.submit-template-button-fill {
+	position: absolute;
+
+	z-index: 12;
+	bottom: -80px;
+	background-color: #00db54;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	font-size: 30px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.submit-template-button-empty {
+	position: absolute;
+
+	z-index: 12;
+	bottom: -80px;
+	background-color: #00491c;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	font-size: 30px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.menu-add-exercise-button-selected {
+	position: absolute;
+
+	z-index: 12;
+	bottom: -80px;
+	background-color: #f1c40f;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	font-size: 30px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.menu-add-exercise-button-empty {
+	position: absolute;
+
+	z-index: 12;
+	bottom: -80px;
+	background-color: #292102;
+	color: white;
+	border-style: none;
+	padding: 10px 20px;
+	font-size: 30px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	transition: 0.3s;
+}
+.menu-add-exercise-button-empty:hover {
+	cursor: not-allowed;
+}
+
+.menu-add-exercise-button-selected:hover {
+	background-color: #967907;
+	cursor: pointer;
+}
+
+.close-exercise-menu-button {
+	position: absolute;
+	top: -50px;
+	right: 0px;
+	background-color: red;
+	color: white;
+	padding: 10px;
+}
+
+.template-creation-container {
+	position: absolute;
+	background-color: white;
+	box-shadow: 0px 0px 5px 3px black;
+	height: 600px;
+	width: 900px;
+	z-index: 10;
+}
+
+.selected-exercise-list-container {
+	float: right;
+	width: 40%;
+
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.selected-exercise-list {
+	height: 30px;
+}
+
+.selected-list-header {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.exercise-indicator {
+	position: relative;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 6px;
+	border-radius: 50%;
+}
+
+.template-name-input {
+	position: relative;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.dark-cover {
+	position: absolute;
+	height: 100%;
+	right: 0px;
+	top: 0px;
+	padding: 1px;
+	width: 100%;
+	background-color: #2f3640;
+	clip-path: polygon(65% 0%, 100% 0%, 100% 100%, 55% 100%);
+	transition: 0.3s;
+}
+
+.Chest {
+	background-color: #e67e22;
+
+	transition: 0.3s;
+}
+
+.Chest:hover {
+	background-color: #aa5c17;
+}
+
+.Back {
+	background-color: #1d93e2;
+}
+
+.Shoulders {
+	background-color: #e74c3c;
+}
+
+.Legs {
+	background-color: #8e44ad;
+}
+
+.Tricep {
+	background-color: #27ae60;
+}
+
+.Bicep {
+	background-color: #f1c40f;
+}
+
+.Abs {
+	background-color: #2b557e;
+}
+
+.Cardio {
+	background-color: teal;
+}
